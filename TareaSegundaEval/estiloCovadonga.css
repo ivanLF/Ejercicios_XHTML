@@ -1,0 +1,162 @@
+/* dejamos a 0 todos los margenes y padding */
+* {
+margin: 0px;
+padding: 0px;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup{
+display: block;
+}
+
+/* centramos el contenido en la pagina */
+
+body {
+text-align: center;
+    background-color:darkgray;
+}
+
+ /* fijamos ancho total de la caja principal */
+#todo {
+width: 980px;
+margin: 10px auto;
+text-align: left;
+}
+
+    /* estilo para la cabecera */
+   
+#cabecera {
+background-color: #262626;
+padding: 20px;
+    color:azure;
+    text-align: center;
+    font-size: 20px;
+}
+
+    /*estilo para la barra de navegacion NAV*/
+
+#navegacion {
+background: #800000;
+padding: 10px 10px;
+
+} 
+#navegacion li {
+display: inline-block;
+list-style: none;
+padding: 5px 10px;
+font: bold 14px verdana, sans-serif;
+}
+#navegacion li a {
+color: azure;
+}
+#navegacion li a:hover {
+
+color: yellow;
+
+}
+
+    /* estilo para la caja SECTION */
+#seccion {
+float: left;
+width: 660px;
+margin: 20px;
+}
+article {
+background-color: #CCCCCC;
+margin-bottom: 15px;
+}
+article p{
+    margin: 10px;
+}
+article h2{
+    background-color: #333333;
+    color:azure;
+    padding-left:15px;
+}
+article h3{
+
+    color:#800000;
+    padding-left:15px;
+}
+article ul{
+    margin-bottom: 10px;
+}
+
+article ul li{
+    margin-left:35px;
+}
+
+
+    /* estilo para la caja ASIDE */
+
+#columna {
+float: left;
+width: 220px;
+margin: 20px 0px;
+padding: 20px;
+background: #CCCCCC;
+}
+
+
+    /* estilo para la caja FOOTER */
+#pie {
+clear: both;
+text-align: center;
+padding: 20px;
+border-top: 2px solid #999999;
+    background-color: #262626;
+        color:azure;
+}
+
+div {
+width: 100px;
+margin: 20px;
+border: 1px solid #000000;
+    background-color: antiquewhite;
+
+    
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+
+figcaption {
+font: italic 12px verdana, sans-serif;
+    margin-bottom: 15px;
+}
+/* Configuro tamaño maximo para las imagenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* estilo para el formulario*/
+
+ 
+    #formu{
+        border: 2px solid brown;
+        width: 100%;      
+
+    }
+    input[type=text]{
+ 
+        margin:5px;
+        border:2px solid darkgray;
+    }
+    label{
+        font-size: 15px;
+    }
+    select{
+        background-color: beige;
+    }
+    input[type=reset],[type=submit]{
+        background-color: darkgreen;
+        color:beige;
+        padding:14px;
+
+    }
+
+
