@@ -1,1 +1,16 @@
+Las variante principal respecto al anterior ejercicio ha sido su transformacion a HTML5 y correspondiente estructurado.
+El layout de las páginas tiene un ancho fijo de 980px.
+En cuanto a su estructura, se compone de:
+	- una cabecera, que lleva el nombre de cada página.
+	- una barra de navegación que contiene los enlaces a los diferentes articulos que se encuentran en
+	 la seccion "Section". Cada enlace tiene un pequeño efecto al pasar el ratón sobre él (cambia el color de la letra a amarillo)
+	La página "lagos de Cobadonga no tiene enlaces, pero sí se respeta la zona.
+	- una seccion "Section" en la que esta el contenido de la página, dividido en articulos a los que puedes acceder desde la barra
+	de navegacion, y a su vez desde cada uno de ellos volver al principio.
+	Esta seccion contiene también un formulario (se usa Mailto para poder enviar los datos por correo electrónico).
+	- una barra lateral "Aside" contiene las imágenes del artículo "Conjunto Monumental del Santuario".
+	- y un pie de página "footer" con el nombre del realizador de la página.
+
+
+Mi página se encuentra publicada en GitHub en la siguiente direccion:
 https://ivanlf.github.io/Ejercicios_XHTML/TareaSegundaEval/Covadonga.html
