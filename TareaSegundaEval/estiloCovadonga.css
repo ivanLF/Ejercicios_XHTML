@@ -1,4 +1,4 @@
-/* dejamos a 0 todos los margenes y padding */
+/* dejamos inicialmente a 0 todos los margenes y padding */
 * {
 margin: 0px;
 padding: 0px;
@@ -33,7 +33,7 @@ padding: 20px;
     font-size: 20px;
 }
 
-    /*estilo para la barra de navegacion NAV*/
+    /* estilo para la barra de navegacion NAV */
 
 #navegacion {
 background: #800000;
@@ -41,7 +41,7 @@ padding: 10px 10px;
 
 } 
 #navegacion li {
-display: inline-block;
+display: inline-block;      /* todas las opciones de la lista aparecen en linea */
 list-style: none;
 padding: 5px 10px;
 font: bold 14px verdana, sans-serif;
@@ -49,10 +49,8 @@ font: bold 14px verdana, sans-serif;
 #navegacion li a {
 color: azure;
 }
-#navegacion li a:hover {
-
-color: yellow;
-
+#navegacion li a:hover {    /* efecto al pasar el raton por encima de cada */
+color: yellow;              /* opcion: cambia su color a amarillo */
 }
 
     /* estilo para la caja SECTION */
@@ -134,11 +132,12 @@ img {
 
 
 /* estilo para el formulario*/
-
  
     #formu{
         border: 2px solid brown;
-        width: 100%;      
+        width: 100%; 
+        background-color:beige;
+        
 
     }
     input[type=text]{
@@ -159,4 +158,7 @@ img {
 
     }
 
+    fieldset{
+        margin:10px;
+        padding: 10px;}
 
